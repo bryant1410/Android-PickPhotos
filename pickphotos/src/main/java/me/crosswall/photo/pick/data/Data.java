@@ -2,6 +2,7 @@ package me.crosswall.photo.pick.data;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.database.MergeCursor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +27,7 @@ public class Data {
         PhotoDirectory photoDirectoryAll = new PhotoDirectory();
         photoDirectoryAll.setName(context.getString(R.string.all_photo));
         photoDirectoryAll.setId("ALL");
+
 
         while (data.moveToNext()) {
 

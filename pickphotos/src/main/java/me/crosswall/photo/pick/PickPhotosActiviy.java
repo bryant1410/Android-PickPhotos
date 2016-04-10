@@ -199,20 +199,6 @@ public class PickPhotosActiviy extends AppCompatActivity implements PhotoView {
         return true;
     }
 
-    @Override
-    public void showLoading(String msg) {
-
-    }
-
-    @Override
-    public void hideLoading() {
-
-    }
-
-    @Override
-    public void showError(String msg) {
-
-    }
 
     @Override
     public void showException(String msg) {

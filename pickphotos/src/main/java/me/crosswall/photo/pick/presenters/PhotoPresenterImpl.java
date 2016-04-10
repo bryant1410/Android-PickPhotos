@@ -63,7 +63,6 @@ public class PhotoPresenterImpl extends SafePresenter<PhotoView> {
             PhotoView photoView = getView();
             if(photoView!=null){
                 photoView.showException(e.getMessage());
-                //selectPhotoByCategory(0); //默认全部
             }
         }
 
@@ -72,7 +71,6 @@ public class PhotoPresenterImpl extends SafePresenter<PhotoView> {
            PhotoView photoView = getView();
            if(photoView!=null){
                photoView.showPhotosView(albumInfos);
-               //selectPhotoByCategory(0); //默认全部
            }
         }
     };

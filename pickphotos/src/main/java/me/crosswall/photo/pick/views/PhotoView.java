@@ -12,4 +12,9 @@ public interface PhotoView extends BaseView {
      */
     void showPhotosView(List<PhotoDirectory> photoDirectories);
 
+    /**
+     * show exception message
+     */
+    void showException(String msg);
+
 }
