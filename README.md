@@ -28,20 +28,20 @@ PickPhotos for Android Devices.It‘s a simple MVP demo.
             android:screenOrientation="portrait"/>
 ```
 
-####style.xml
+####Style.xml
 ```code
     <style name="AppTheme" parent="Theme.AppCompat.Light">
            <!-- Customize your theme here. -->
            <item name="colorPrimary">@color/colorPrimary</item>
            <item name="colorPrimaryDark">@color/colorPrimary</item>
            <item name="colorAccent">@color/colorAccent</item>
-           
-       </style>
 
-       <style name="AppTheme.NoActionBar" parent="AppTheme">
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
            <item name="windowActionBar">false</item>
            <item name="windowNoTitle">true</item>
-       </style>
+    </style>
 ```
 
 ####Receive Activity
