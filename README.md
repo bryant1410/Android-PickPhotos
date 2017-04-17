@@ -1,13 +1,13 @@
-#Android-PickPhotos
+# Android-PickPhotos
 
 PickPhotos for Android Devices.It‘s a simple MVP demo. 
 
-##GIF
+## GIF
 <img src="https://github.com/crosswall/Android-PickPhotos/blob/master/art/demo.gif" width="40%" height="40%">
 
-##How to use.
+## How to use.
 
-####PickConfig
+#### PickConfig
 
 ```code
   new PickConfig.Builder(this)
@@ -17,18 +17,18 @@ PickPhotos for Android Devices.It‘s a simple MVP demo.
                 .toolbarColor(R.color.colorPrimary)
                 .build();
 ```
-####Permission
+#### Permission
 
 ```code
    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 ```
-####AndroidManifest.xml
+#### AndroidManifest.xml
 ```code
    <activity android:name="me.crosswall.photo.pick.PickPhotosActiviy"
             android:screenOrientation="portrait"/>
 ```
 
-####Style.xml
+#### Style.xml
 ```code
     <style name="AppTheme" parent="Theme.AppCompat.Light">
            <!-- Customize your theme here. -->
@@ -44,7 +44,7 @@ PickPhotos for Android Devices.It‘s a simple MVP demo.
     </style>
 ```
 
-####Receive Activity
+#### Receive Activity
 ```code
    @Override
    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -61,25 +61,25 @@ PickPhotos for Android Devices.It‘s a simple MVP demo.
        }
    }
 ```
-##Thanks 
+## Thanks 
 >* [PhotoPicker](https://github.com/donglua/PhotoPicker) 
 >* [FishBun](https://github.com/sangcomz/FishBun)
 >* [RxJava](https://github.com/ReactiveX/RxJava)
 >* [Glide](https://github.com/bumptech/glide)
 
-##Change Log
+## Change Log
 
-####12/16/15
+#### 12/16/15
 >* added cursorLoader 
 >* added configs (userCursorLoader | checkImage )
 >* added usages
 
-####12/15/15
+#### 12/15/15
 >* fixed ui errors
 >* refactor model & media data
 >* added showGif config
 
-####12/14/15
+#### 12/14/15
 >* added check image status method
 >* fixed bug
 
